@@ -16,7 +16,6 @@ export default class {
 
     hasFilledFields()
     {
-        return true;
         if(this.name === null || this.name === "")
         {
             this.Error.error_text = "Please provide the user name";
@@ -56,6 +55,30 @@ export default class {
             email:this.email,
             password:this.password,
             password_confirmation: this.passwordConfirmation
+        }
+    }
+    hasLoginFields()
+    {
+        if(this.email === null || this.email === "")
+        {
+            this.Error.error_text = "Please enter your email";
+            this.Error.visible = true;
+            return false;
+        }
+        else if(this.password === null || this.password === "")
+        {
+            this.Error.error_text = "Please enter your password";
+            this.Error.visible = true;
+            return false;
+        }
+
+        return true;
+    }
+    getLoginFields()
+    {
+        return {
+            email: this.email,
+            password: this.password
         }
     }
 

@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -32129,10 +32129,10 @@ function () {
 
 /***/ }),
 
-/***/ "./resources/js/auth/register.js":
-/*!***************************************!*\
-  !*** ./resources/js/auth/register.js ***!
-  \***************************************/
+/***/ "./resources/js/auth/login.js":
+/*!************************************!*\
+  !*** ./resources/js/auth/login.js ***!
+  \************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -32163,19 +32163,22 @@ var app = new Vue({
     }
   },
   methods: {
-    RegisterUser: function RegisterUser() {
-      if (this.User.hasFilledFields()) {
+    LoginUser: function LoginUser() {
+      if (this.User.hasLoginFields()) {
         console.log('we are ready');
-        this.Server.setRequest(this.User.getRegisterParams());
-        this.Server.serverRequest('/api/admin/register', this.successRegistration, this.showErrorModal);
+        this.Server.setRequest(this.User.getLoginFields());
+        this.Server.serverRequest('/api/admin/login', this.successLogin, this.showErrorModal);
       } else {
         this.Error = this.User.Error;
       }
     },
-    successRegistration: function successRegistration(data) {
-      this.Success.success_text = 'Successfully registered the user ' + this.User.name;
+    successLogin: function successLogin(data) {
+      this.Success.success_text = 'Successful. Redirecting to dashboard... ';
       this.Success.visible = true;
       this.User = new _auth_User_js__WEBPACK_IMPORTED_MODULE_2__["default"]();
+      setTimeout(function () {
+        window.location.reload();
+      }, 3000);
     },
     resetErrorModal: function resetErrorModal() {
       this.Error = {
@@ -32383,10 +32386,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/config/register_config.js":
-/*!************************************************!*\
-  !*** ./resources/js/config/register_config.js ***!
-  \************************************************/
+/***/ "./resources/js/config/login_config.js":
+/*!*********************************************!*\
+  !*** ./resources/js/config/login_config.js ***!
+  \*********************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -32394,21 +32397,20 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../bootstrap */ "./resources/js/bootstrap.js");
 /* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_bootstrap__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _auth_register__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../auth/register */ "./resources/js/auth/register.js");
- // window.User = User;
+/* harmony import */ var _auth_login__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../auth/login */ "./resources/js/auth/login.js");
 
 
 
 /***/ }),
 
-/***/ 1:
-/*!******************************************************!*\
-  !*** multi ./resources/js/config/register_config.js ***!
-  \******************************************************/
+/***/ 2:
+/*!***************************************************!*\
+  !*** multi ./resources/js/config/login_config.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/noorfarooqy/Documents/Noor/sites/teacherudite/resources/js/config/register_config.js */"./resources/js/config/register_config.js");
+module.exports = __webpack_require__(/*! /home/noorfarooqy/Documents/Noor/sites/teacherudite/resources/js/config/login_config.js */"./resources/js/config/login_config.js");
 
 
 /***/ })

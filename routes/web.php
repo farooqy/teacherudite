@@ -25,6 +25,6 @@ Route::get('/contactus', 'homepage\mainController@contactIndexPage')->name('cont
 
 //Admin
 
-Route::get('/login', 'unauth\generalPagesController@getAdminLoginPage')->name('login');
+Route::get('/login', 'unauth\generalPagesController@getAdminLoginPage')->name('login')->middleware('loginAuthRoute');
 Route::get('/register', 'admin\adminController@getAdminRegisterPage')->name('adminRegisterPage');
 Route::get('/admin', 'admin\adminController@getAdminIndexPage')->name('adminIndexPage');

@@ -37,10 +37,10 @@
         methods: {
             disMissErrorModel()
             {
-                this.$emit('dismiss-error-modal');
+                this.$emit('dismiss-success-modal');
             }
         },
-        props: ["error_text"]
+        props: ["success_text"]
     }
 
 </script>

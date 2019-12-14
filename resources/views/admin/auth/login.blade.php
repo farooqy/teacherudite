@@ -22,8 +22,11 @@
 
 <body class="bg-gradient-primary">
 
-  <div class="container">
-
+  <div class="container" id="app">
+    <error v-if="Error.visible" v-bind="Error"
+    v-on:dismiss-error-modal="resetErrorModal()"></error>
+    <success v-if="Success.visible" v-bind="Success"
+    v-on:dismiss-success-modal="resetSuccesModal()"></success>
     <!-- Outer Row -->
     <div class="row justify-content-center">
 
@@ -48,13 +51,13 @@
                   <form class="user">
                     <div class="form-group">
                       <input type="email" class="form-control form-control-user" name="user_email"
-                      id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                      v-model="User.email" aria-describedby="emailHelp" placeholder="Enter Email Address...">
                     </div>
                     <div class="form-group">
                       <input type="password" class="form-control form-control-user" name="user_password"
-                      id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                      v-model="User.password"  aria-describedby="emailHelp" placeholder="Enter Password...">
                     </div>
-                    <a href="login.html" class="btn btn-primary btn-user btn-block">
+                    <a href="login.html" class="btn btn-primary btn-user btn-block" @click.prevent="LoginUser">
                         Log in 
                     </a>
                   </form>
@@ -86,6 +89,7 @@
 
   <!-- Custom scripts for all pages-->
   <script src="/admin_assets/js/sb-admin-2.min.js"></script>
+  <script src="/js/login_config.js"></script>
 
 </body>
 

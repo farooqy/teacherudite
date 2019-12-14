@@ -9,7 +9,7 @@ class adminController extends Controller
     //
     public function __construct()
     {
-        // $this->middleware('adminAuth');
+        $this->middleware('adminAuth');
     }
 
     public function getAdminIndexPage()

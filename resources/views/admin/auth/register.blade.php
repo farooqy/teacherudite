@@ -25,6 +25,9 @@
   <div class="container" id="app">
     <error v-if="Error.visible" v-bind="Error"
     v-on:dismiss-error-modal="resetErrorModal()"></error>
+    <success v-if="Success.visible" v-bind="Success"
+    v-on:dismiss-success-modal="resetSuccesModal()"></success>
+    
     <!-- Outer Row -->
     <div class="row justify-content-center">
 

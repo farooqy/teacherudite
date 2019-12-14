@@ -4,7 +4,7 @@ namespace App\Http\Middleware\custommiddleware;
 
 use Closure;
 
-class AdminMiddleware
+class loginRedirectMiddleware
 {
     /**
      * Handle an incoming request.
@@ -15,8 +15,8 @@ class AdminMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if(isset($_COOKIE['is_admin']) && isset($_COOKIE['admin_id']) )
+        if(!isset($_COOKIE['is_admin']) || !isset($_COOKIE['admin_id']) )
             return $next($request);
-        return redirect()->route('login');
+        return redirect()->route('adminIndexPage');
     }
 }

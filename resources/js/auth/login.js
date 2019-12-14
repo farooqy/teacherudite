@@ -21,14 +21,14 @@ var app = new Vue({
         
     },
     methods: {
-        RegisterUser()
+        LoginUser()
         {
-            if(this.User.hasFilledFields())
+            if(this.User.hasLoginFields())
             {
                 console.log('we are ready')
-                this.Server.setRequest(this.User.getRegisterParams());
-                this.Server.serverRequest('/api/admin/register',
-                    this.successRegistration, this.showErrorModal);
+                this.Server.setRequest(this.User.getLoginFields());
+                this.Server.serverRequest('/api/admin/login',
+                    this.successLogin, this.showErrorModal);
                 
             }
             else
@@ -36,11 +36,14 @@ var app = new Vue({
                 this.Error= this.User.Error
             }
         },
-        successRegistration(data)
+        successLogin(data)
         {
-            this.Success.success_text = 'Successfully registered the user '+this.User.name;
+            this.Success.success_text = 'Successful. Redirecting to dashboard... ';
             this.Success.visible = true;
             this.User = new User();
+            setTimeout(() => {
+                window.location.reload();
+            }, 3000);
         },
         resetErrorModal()
         {
