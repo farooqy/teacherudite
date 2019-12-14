@@ -22,3 +22,9 @@ Route::get('/blog', 'homepage\mainController@blogIndexPage')->name('blogIndexPag
 Route::get('/tefl', 'homepage\mainController@teflIndexPage')->name('teflIndexPage');
 Route::get('/aboutus', 'homepage\mainController@aboutIndexPage')->name('aboutIndexPage');
 Route::get('/contactus', 'homepage\mainController@contactIndexPage')->name('contactIndexPage');
+
+//Admin
+
+Route::get('/login', 'unauth\generalPagesController@getAdminLoginPage')->name('login');
+Route::get('/register', 'admin\adminController@getAdminRegisterPage')->name('adminRegisterPage');
+Route::get('/admin', 'admin\adminController@getAdminIndexPage')->name('adminIndexPage');
