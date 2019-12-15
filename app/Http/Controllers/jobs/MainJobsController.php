@@ -13,7 +13,8 @@ class MainJobsController extends Controller
     public function __construct()
     {
         $this->middleware('adminAuth');
-        $this->user = userModel::where("id", $_COOKIE["admin_id"])->get();
+        if(isset($_COOKIE['admin_id']))
+            $this->user = userModel::where("id", $_COOKIE["admin_id"])->get();
     }
 
     public function newJobsView()
