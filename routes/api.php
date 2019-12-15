@@ -19,3 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::post('/admin/register','unauth\generalPagesController@RegisterUser');
 Route::post('/admin/login','unauth\generalPagesController@LoginUser');
+
+//jobs
