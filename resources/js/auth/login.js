@@ -18,11 +18,13 @@ var app = new Vue({
             success_text: null,
             visible: false,
         },
+        requestLoading: false,
         
     },
     methods: {
         LoginUser()
         {
+            this.requestLoading = true;
             if(this.User.hasLoginFields())
             {
                 console.log('we are ready')
@@ -34,6 +36,7 @@ var app = new Vue({
             else
             {
                 this.Error= this.User.Error
+                this.requestLoading = false;
             }
         },
         successLogin(data)
@@ -52,6 +55,7 @@ var app = new Vue({
                 error_title : null,
                 visible : false,
             }
+            this.requestLoading = false;
         },
         showErrorModal(error)
         {
@@ -63,7 +67,6 @@ var app = new Vue({
             this.Error.error_text = error;
             this.Error.visible = true;
 
-            
         },
         resetSuccesModal()
         {
@@ -71,6 +74,7 @@ var app = new Vue({
                 success_text: null,
                 visible: false,
             }
+            this.requestLoading = false;
         }
     },
     mounted() {

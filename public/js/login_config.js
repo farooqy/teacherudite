@@ -32160,16 +32160,20 @@ var app = new Vue({
     Success: {
       success_text: null,
       visible: false
-    }
+    },
+    requestLoading: false
   },
   methods: {
     LoginUser: function LoginUser() {
+      this.requestLoading = true;
+
       if (this.User.hasLoginFields()) {
         console.log('we are ready');
         this.Server.setRequest(this.User.getLoginFields());
         this.Server.serverRequest('/api/admin/login', this.successLogin, this.showErrorModal);
       } else {
         this.Error = this.User.Error;
+        this.requestLoading = false;
       }
     },
     successLogin: function successLogin(data) {
@@ -32186,6 +32190,7 @@ var app = new Vue({
         error_title: null,
         visible: false
       };
+      this.requestLoading = false;
     },
     showErrorModal: function showErrorModal(error) {
       console.log('error ', error);
@@ -32202,6 +32207,7 @@ var app = new Vue({
         success_text: null,
         visible: false
       };
+      this.requestLoading = false;
     }
   },
   mounted: function mounted() {
