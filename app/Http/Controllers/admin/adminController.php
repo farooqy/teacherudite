@@ -11,7 +11,7 @@ class adminController extends Controller
     public $user;
     public function __construct()
     {
-        $this->middleware('adminAuth');
+        // $this->middleware('adminAuth');
         if(isset($_COOKIE['admin_id']))
             $this->user = userModel::where("id", $_COOKIE["admin_id"])->get();
     }
