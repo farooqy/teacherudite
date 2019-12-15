@@ -57,8 +57,8 @@
                       <input type="password" class="form-control form-control-user" name="user_password"
                       v-model="User.password"  aria-describedby="emailHelp" placeholder="Enter Password...">
                     </div>
-                    <a href="login.html" class="btn btn-primary btn-user btn-block" @click.prevent="LoginUser"
-                    :disabled="requestLoading">
+                    <a href="#" class="btn btn-primary btn-user btn-block"  @click.prevent="LoginUser"
+                  :disabled="requestLoading" :class="{disabled: requestLoading}">
                         Log in 
                     </a>
                   </form>
