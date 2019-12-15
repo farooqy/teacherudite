@@ -29,7 +29,7 @@ class generalPagesController extends Controller
     {
         $rules = [
             "name" => "required|string|max:45",
-            "email" => "required|email|max:75|unique:userModel,email",
+            "email" => "required|email|max:75|unique:users,email",
             "password" => "required|confirmed|min:4|max:45"
         ];
         $is_valid = Validator::make($request->all(), $rules,[]);
