@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'ERUDITE';
-  src:  url('fonts/ERUDITE.eot?m51v0t');
-  src:  url('fonts/ERUDITE.eot?m51v0t#iefix') format('embedded-opentype'),
-    url('fonts/ERUDITE.ttf?m51v0t') format('truetype'),
-    url('fonts/ERUDITE.woff?m51v0t') format('woff'),
-    url('fonts/ERUDITE.svg?m51v0t#ERUDITE') format('svg');
+  src:  url('fonts/ERUDITE.eot?l4w1j2');
+  src:  url('fonts/ERUDITE.eot?l4w1j2#iefix') format('embedded-opentype'),
+    url('fonts/ERUDITE.ttf?l4w1j2') format('truetype'),
+    url('fonts/ERUDITE.woff?l4w1j2') format('woff'),
+    url('fonts/ERUDITE.svg?l4w1j2#ERUDITE') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,65 +25,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-toggle-right-fill:before {
-  content: "\e91d";
-}
-.icon-user-check:before {
-  content: "\e909";
-}
-.icon-location-fill:before {
-  content: "\e912";
-}
-.icon-wechat-fill:before {
-  content: "\e929";
-}
-.icon-trending-up-circle:before {
-  content: "\e927";
-}
-.icon-award-circle:before {
-  content: "\e91e";
-}
-.icon-award:before {
-  content: "\e915";
-}
-.icon-briefcase:before {
-  content: "\e93a";
-}
-.icon-check:before {
-  content: "\e901";
-}
-.icon-envelope:before {
-  content: "\e92e";
-}
-.icon-location:before {
-  content: "\e928";
-}
-.icon-pocket:before {
-  content: "\e93b";
-}
-.icon-sliders:before {
-  content: "\e93d";
-}
-.icon-smile:before {
-  content: "\e93f";
-}
-.icon-target:before {
-  content: "\e916";
-}
-.icon-toggle-right:before {
-  content: "\e940";
-}
-.icon-trending-up:before {
-  content: "\e919";
-}
-.icon-users:before {
-  content: "\e941";
-}
-.icon-sphere:before {
-  content: "\e95a";
-}
-.icon-star-half:before {
-  content: "\e938";
+.icon-youtube-logo:before {
+  content: "\e943";
 }
 .icon-planet-earth:before {
   content: "\e914";
@@ -229,6 +172,72 @@
 }
 .icon-user:before {
   content: "\e92d";
+}
+.icon-linkedin-logo:before {
+  content: "\e926";
+}
+.icon-linkedin-box:before {
+  content: "\e942";
+}
+.icon-sphere:before {
+  content: "\e95a";
+}
+.icon-star-half:before {
+  content: "\e938";
+}
+.icon-toggle-right-fill:before {
+  content: "\e91d";
+}
+.icon-user-check:before {
+  content: "\e909";
+}
+.icon-location-fill:before {
+  content: "\e912";
+}
+.icon-wechat-fill:before {
+  content: "\e929";
+}
+.icon-trending-up-circle:before {
+  content: "\e927";
+}
+.icon-award-circle:before {
+  content: "\e91e";
+}
+.icon-award:before {
+  content: "\e915";
+}
+.icon-briefcase:before {
+  content: "\e93a";
+}
+.icon-check:before {
+  content: "\e901";
+}
+.icon-envelope:before {
+  content: "\e92e";
+}
+.icon-location:before {
+  content: "\e928";
+}
+.icon-pocket:before {
+  content: "\e93b";
+}
+.icon-sliders:before {
+  content: "\e93d";
+}
+.icon-smile:before {
+  content: "\e93f";
+}
+.icon-target:before {
+  content: "\e916";
+}
+.icon-toggle-right:before {
+  content: "\e940";
+}
+.icon-trending-up:before {
+  content: "\e919";
+}
+.icon-users:before {
+  content: "\e941";
 }
 .icon-close:before {
   content: "\e937";

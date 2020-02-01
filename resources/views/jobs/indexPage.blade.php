@@ -45,185 +45,178 @@
                     <div class="inner-circles-loader"></div>
                 </div>
                 <div class="gallery-smiles gallery-isotope" id="gallery">
-                    <div class="gallery-item category2 category7">
-                        <a href="/jobs">
-                            <img src="/images/content/gallery/smile-01.jpg" alt="">
+                    <div class="gallery-item category1">
+                        <a href="/jobs_page">
+                            <img src="../images/content/gallery/smile-01.jpg" alt="" />
                             <div class="after-label">China</div>
-                            <div class="before-label">Chengdu</div>
+                            <div class="before-label">Hangzhou</div>
                             <div class="gallery-caption">
-                                <h5>Chengdu, China</h5>
+                                <h5>Hangzhou, China</h5>
                                 <p>Minimum requirement – Bachelors degree
                                     <br>
-                                    Starting Salary – RMB 10 000
+                                    Starting Salary – RMB 20 000
                                     <br>
                                     Accommodation – provided
                                     <br>
-                                    Flights – paid for
+                                    Flights – reimbursement
                                     <br>
                                     Medical – provided
                                     <br>
-                                    Phase – primary
+                                    Start – immediately
                                     <br>
-                                    Subjects – English</p>
+                                    Subjects – English, Science and Support</p>
                             </div>
                         </a>
                     </div>
-                    <div class="gallery-item category1 category5 category8">
-                        <a href="/jobs">
-                            <img src="/images/content/gallery/smile-02.jpg" alt="">
+                    <div class="gallery-item category2">
+                        <a href="/jobs_page">
+                            <img src="../images/content/gallery/smile-02.jpg" alt="" />
                             <div class="after-label">China</div>
                             <div class="before-label">Shanghai</div>
                             <div class="gallery-caption">
                                 <h5>Shanghai, China</h5>
                                 <p>Minimum requirement – Bachelors degree
                                     <br>
-                                    Starting Salary – RMB 16 000
+                                    Starting Salary – RMB 23 000
                                     <br>
                                     Accommodation – single room accomodation provided
                                     <br>
-                                    Flights – reimbursed
+                                    Flights – return
                                     <br>
                                     Medical – provided
                                     <br>
-                                    Phase – primary
+                                    Start – immediately
                                     <br>
-                                    Subjects – English, Science, Art, Drama</p>
+                                    Subjects – Literature</p>
                             </div>
                         </a>
                     </div>
-                    <div class="gallery-item category2 category4 category3">
-                        <a href="/jobs"><img src="/images/content/gallery/smile-03.jpg" alt=""></a>
-                        <div class="after-label">China</div>
-                        <div class="before-label">Hangzhou</div>
-                        <div class="gallery-caption">
-                            <h5>Hangzhou, China</h5>
-                            <p>Minimum requirement – Bachelors degree
-                                <br>
-                                Starting Salary – RMB 10 000
-                                <br>
-                                Accommodation – provided
-                                <br>
-                                Flights – paid for
-                                <br>
-                                Medical – provided
-                                <br>
-                                Phase – primary
-                                <br>
-                                Subjects – English</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item category4 category8 category6">
-                        <a href="/jobs">
-                            <img src="/images/content/gallery/smile-04.jpg" alt="">
+                    <div class="gallery-item category3">
+                        <a href="/jobs_page"><img src="../images/content/gallery/smile-03.jpg" alt="" />
                             <div class="after-label">China</div>
-                            <div class="before-label">Chengdu</div>
+                            <div class="before-label">Shandong</div>
                             <div class="gallery-caption">
-                                <h5>Chengdu, China</h5>
+                                <h5>Shandong, China</h5>
                                 <p>Minimum requirement – Bachelors degree
                                     <br>
-                                    Starting Salary – RMB 10 000
+                                    Starting Salary – RMB 14 000
                                     <br>
                                     Accommodation – provided
                                     <br>
-                                    Flights – paid for
+                                    Flights – return
                                     <br>
                                     Medical – provided
                                     <br>
-                                    Phase – primary
+                                    Start – immediately
                                     <br>
-                                    Subjects – English</p>
+                                    Subjects – English to Chinese learners, prepare materials and assignments,
+                                    arrange and evaluate exams</p>
                             </div>
                         </a>
                     </div>
-                    <div class="gallery-item category3 category7">
-                        <a href="/jobs">
-                            <img src="/images/content/gallery/smile-05.jpg" alt="">
+                    <div class="gallery-item category4">
+                        <a href="/jobs_page"><img src="../images/content/gallery/smile-04.jpg" alt="" />
                             <div class="after-label">China</div>
-                            <div class="before-label">Chengdu</div>
+                            <div class="before-label">Shenzhen</div>
                             <div class="gallery-caption">
-                                <h5>Chengdu, China</h5>
+                                <h5>Shenzhen, China</h5>
                                 <p>Minimum requirement – Bachelors degree
                                     <br>
-                                    Starting Salary – RMB 10 000
+                                    Starting Salary – RMB 18 000
                                     <br>
                                     Accommodation – provided
                                     <br>
-                                    Flights – paid for
+                                    Flights – provided
                                     <br>
                                     Medical – provided
                                     <br>
-                                    Phase – primary
+                                    Start – immediately
                                     <br>
-                                    Subjects – English</p>
+                                    Subjects – English to Chinese learners, prepare materials and assignments,
+                                    arrange and evaluate exams</p>
                             </div>
                         </a>
                     </div>
-                    <div class="gallery-item category4 category7 category3">
-                        <a href="/jobs">
-                            <img src="/images/content/gallery/smile-06.jpg" alt="">
+                    <div class="gallery-item category5">
+                        <a href="/jobs_page"><img src="../images/content/gallery/smile-05.jpg" alt="" />
                             <div class="after-label">China</div>
-                            <div class="before-label">Chengdu</div>
+                            <div class="before-label">Suzhou</div>
                             <div class="gallery-caption">
-                                <h5>Chengdu, China</h5>
+                                <h5>Suzhou, China</h5>
                                 <p>Minimum requirement – Bachelors degree
                                     <br>
-                                    Starting Salary – RMB 10 000
+                                    Starting Salary – RMB 17 000
                                     <br>
                                     Accommodation – provided
                                     <br>
-                                    Flights – paid for
+                                    Flights – reimbursement
                                     <br>
                                     Medical – provided
                                     <br>
-                                    Phase – primary
+                                    Start – February 2020
                                     <br>
-                                    Subjects – English</p>
+                                    Subjects – English, Math, Drama, Chemistry, Economics</p>
                             </div>
                         </a>
                     </div>
-                    <div class="gallery-item category1 category8">
-                        <a href="/jobs">
-                            <img src="/images/content/gallery/smile-07.jpg" alt="">
+                    <div class="gallery-item category6">
+                        <a href="/jobs_page"><img src="../images/content/gallery/smile-06.jpg" alt="" />
                             <div class="after-label">China</div>
-                            <div class="before-label">Chengdu</div>
+                            <div class="before-label">Beijing</div>
                             <div class="gallery-caption">
-                                <h5>Chengdu, China</h5>
+                                <h5>Beijing, China</h5>
                                 <p>Minimum requirement – Bachelors degree
                                     <br>
-                                    Starting Salary – RMB 10 000
+                                    Starting Salary – RMB 20 000
                                     <br>
                                     Accommodation – provided
                                     <br>
-                                    Flights – paid for
+                                    Flights – return
                                     <br>
                                     Medical – provided
                                     <br>
-                                    Phase – primary
-                                    <br>
-                                    Subjects – English</p>
+                                    Subjects – English, Math, Chemistry, Computer Science</p>
                             </div>
                         </a>
                     </div>
-                    <div class="gallery-item category2 category6">
-                        <a href="/jobs">
-                            <img src="/images/content/gallery/smile-08.jpg" alt="">
+                    <div class="gallery-item category7">
+                        <a href="/jobs_page"><img src="../images/content/gallery/smile-07.jpg" alt="" />
                             <div class="after-label">China</div>
-                            <div class="before-label">Chengdu</div>
+                            <div class="before-label">Shanghai</div>
                             <div class="gallery-caption">
-                                <h5>Chengdu, China</h5>
+                                <h5>Shanghai, China</h5>
                                 <p>Minimum requirement – Bachelors degree
                                     <br>
-                                    Starting Salary – RMB 10 000
+                                    Starting Salary – RMB 25 000
                                     <br>
                                     Accommodation – provided
                                     <br>
-                                    Flights – paid for
+                                    Flights – reimbursement
                                     <br>
                                     Medical – provided
                                     <br>
-                                    Phase – primary
+                                    Responsible for planning and delivering lessons to young learners aged 3-6 years
+                                    old</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery-item category8">
+                        <a href="/jobs_page"><img src="../images/content/gallery/smile-08.jpg" alt="" />
+                            <div class="after-label">China</div>
+                            <div class="before-label">Hangzhou</div>
+                            <div class="gallery-caption">
+                                <h5>Hangzhou, China</h5>
+                                <p>Minimum requirement – Bachelors degree
                                     <br>
-                                    Subjects – English</p>
+                                    Starting Salary – USD 3 000
+                                    <br>
+                                    Accommodation – provided
+                                    <br>
+                                    Flights – provided
+                                    <br>
+                                    Medical – provided
+                                    <br>
+                                    Subjects — English, Science, Art, PE and/or Support</p>
                             </div>
                         </a>
                     </div>
@@ -233,4 +226,8 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('footer-section')
+    @include('layout.footer')
 @endsection
