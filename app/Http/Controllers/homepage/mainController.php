@@ -18,6 +18,10 @@ class mainController extends Controller
     {
         return view('jobs.indexPage');
     }
+    public function specificJobIndexPage()
+    {
+        return view('jobs_page.indexPage');
+    }
     public function employerIndexPage()
     {
         return view('employer.indexPage');
@@ -25,6 +29,10 @@ class mainController extends Controller
     public function blogIndexPage()
     {
         return view('blog.indexPage');
+    }
+    public function specificBlogIndexPage()
+    {
+        return view('blog_page.indexPage');
     }
     public function teflIndexPage()
     {
