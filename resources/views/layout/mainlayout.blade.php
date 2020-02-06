@@ -62,7 +62,7 @@
                                                 <a href="/blog" class="nav-link">Resources</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="/tefl" class="nav-link">Online TEFL Certification</a>
+                                                <a href="/tefl" class="nav-link">FAQs &amp; TEFL program</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="/aboutus">About Us</a>
@@ -108,6 +108,11 @@
         <script src="/vendor/countTo/jquery.countTo.js"></script>
         <script src="/vendor/form-validation/jquery.form.js"></script>
         <script src="/vendor/form-validation/jquery.validate.min.js"></script>
+
+        {{-- Jobs script --}}
+        @yield('jobs-pagescript')
+        {{-- End of script --}}
+
         <!-- Custom Scripts -->
         <script src="/js/app.js"></script>
         <script src="/js/app-shop.js"></script>

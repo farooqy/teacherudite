@@ -7,8 +7,8 @@
         <div class="breadcrumbs-wrap">
             <div class="container">
                 <div class="breadcrumbs">
-                    <a href="../index.html">Home</a>
-                    <a href="jobs-board.html">Jobs Board</a>
+                    <a href="/">Home</a>
+                    <a href="/jobs">Jobs Board</a>
                     <span>Hangzhou</span>
                 </div>
             </div>
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md">
                     <div class="employer-page-photo text-center">
-                        <img src="../images/content/employer-01.jpg" class="img-fluid" alt="">
+                        <img src="../images/content/jobs/job-page-hangzhou.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="mt-3 mt-md-5"></div>
                     <table class="table employer-page-table">

@@ -425,7 +425,7 @@
                 <div class="col">
                     <div class="counter-box">
                         <div class="counter-box-icon"><i class="icon-smile"></i></div>
-                        <div class="counter-box-number"><span class="count" data-to="200" data-speed="1500">0</span>
+                        <div class="counter-box-number"><span class="count" data-to="50" data-speed="1500">0</span>
                             &plus;</div>
                         <div class="decor"></div>
                         <div class="counter-box-text">Happy Clients</div>
@@ -435,7 +435,7 @@
                     <div class="counter-box">
                         <div class="counter-box-icon"><i class="icon-users"></i></div>
                         <div class="counter-box-number"><span class="count" data-to="120" data-speed="1500">0</span>
-                            &plus;</div>
+                            </div>
                         <div class="decor"></div>
                         <div class="counter-box-text">Teachers Recruited</div>
                     </div>
@@ -443,7 +443,7 @@
                 <div class="col">
                     <div class="counter-box">
                         <div class="counter-box-icon"><i class="icon-price-tag"></i></div>
-                        <div class="counter-box-number"><span class="count" data-to="110" data-speed="1500">0</span>
+                        <div class="counter-box-number"><span class="count" data-to="50" data-speed="1500">0</span>
                             &plus;</div>
                         <div class="decor"></div>
                         <div class="counter-box-text">Schools Served</div>
@@ -452,7 +452,7 @@
                 <div class="col">
                     <div class="counter-box">
                         <div class="counter-box-icon"><i class="icon-toggle-right"></i></div>
-                        <div class="counter-box-number"><span class="count" data-to="20" data-speed="1500">0</span>
+                        <div class="counter-box-number"><span class="count" data-to="10" data-speed="1500">0</span>
                             &plus;</div>
                         <div class="decor"></div>
                         <div class="counter-box-text">Professional Trainers</div>
@@ -467,7 +467,7 @@
         <div class="container">
             <div class="title-wrap text-center">
                 <div class="h-sub theme-color">Group Activities</div>
-                <h2 class="h1">Participation in our Live Activities</h2>
+                <h2 class="h1">Participate in our social development program</h2>
                 <div class="h-decor"></div>
             </div>
             <p class="text-center max-900">Join our happy family</p>

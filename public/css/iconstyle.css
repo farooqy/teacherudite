@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'ERUDITE';
-  src:  url('fonts/ERUDITE.eot?l4w1j2');
-  src:  url('fonts/ERUDITE.eot?l4w1j2#iefix') format('embedded-opentype'),
-    url('fonts/ERUDITE.ttf?l4w1j2') format('truetype'),
-    url('fonts/ERUDITE.woff?l4w1j2') format('woff'),
-    url('fonts/ERUDITE.svg?l4w1j2#ERUDITE') format('svg');
+  src:  url('fonts/ERUDITE.eot?m4dkui');
+  src:  url('fonts/ERUDITE.eot?m4dkui#iefix') format('embedded-opentype'),
+    url('fonts/ERUDITE.ttf?m4dkui') format('truetype'),
+    url('fonts/ERUDITE.woff?m4dkui') format('woff'),
+    url('fonts/ERUDITE.svg?m4dkui#ERUDITE') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -173,6 +173,9 @@
 .icon-user:before {
   content: "\e92d";
 }
+.icon-whatsapp:before {
+  content: "\e947";
+}
 .icon-linkedin-logo:before {
   content: "\e926";
 }
@@ -211,6 +214,9 @@
 }
 .icon-check:before {
   content: "\e901";
+}
+.icon-info:before {
+  content: "\e946";
 }
 .icon-envelope:before {
   content: "\e92e";

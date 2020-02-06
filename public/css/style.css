@@ -4073,6 +4073,10 @@ a.bg-primary-alt:focus, a.bg-primary-alt:hover {
 .my-15 {
   margin-top: 15px !important; }
 
+.mt-18,
+.my-18 {
+  margin-top: 18px !important; }
+
 .mr-15,
 .mx-15 {
   margin-right: 15px !important; }
@@ -8958,7 +8962,7 @@ body.touch .tooltip.show {
     white-space: nowrap;
     font-size: 13px; } }
 form label {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   margin-bottom: 7px; }
 
