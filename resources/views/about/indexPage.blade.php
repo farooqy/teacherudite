@@ -169,47 +169,6 @@
                                     class="member-title-position">Recruitment & Candidate Liaison</span></div>
                             <div class="testimonial-text">
                                 <p>
-                                    <b>Responsibilities:</b> Identifying, screening and interviewing suitable
-                                    teachers and matching them with schools and
-                                    universities. Building and maintaining relationships with teachers. Ensuring
-                                    process flow for teachers throughout the
-                                    hiring process and through the visa process.
-                                    <br>
-                                    Nina is a study method Teacher and a registered Life Coach with over 10
-                                    years-experience. Nina has extensive experience
-                                    as a course facilitator. After practising her skills as a teacher, Nina adapted
-                                    her skills into counselling and guiding
-                                    young people through difficult stages of their lives. She later moved into
-                                    developing a TEFL academy to assist graduates
-                                    with ambitions to teach ESL outside the country. Nina has been recruiting in the
-                                    international education space for 3
-                                    years now with a primary focus on China and South East Asia. Nina is a true
-                                    people’s person and takes a sincere interest
-                                    in every person she works with. As an ex teaching professional and guidance
-                                    counsellor, she truly cares about teachers
-                                    and education as a whole. She has a great track record with placing happy
-                                    educators abroad and offering career guidance
-                                    to young people.
-                                </p>
-                            </div>
-                            <div class="testimonial-author"><span class="testimonial-position">Bachelor’s Degree in
-                                    Media & Communications</span></div>
-                            <div class="employer-info-social">
-                                <a href="mailto:nina@teacherudite.com" class="hovicon"><i
-                                        class="icon-black-envelope"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-wrap">
-                        <div class="testimonial testimonial-bg1 text-center">
-                            <div class="testimonial-photo">
-                                <img src="../images/team/nina-square.png" alt="">
-                                <img src="../images/team/nina-square.png" alt="">
-                            </div>
-                            <div class="testimonial-title">Nina Blount, <span
-                                    class="member-title-position">Recruitment & Career Advisor</span></div>
-                            <div class="testimonial-text">
-                                <p>
                                     <b>Responsibilities:</b> Identifying, screening, interviewing suitable teachers
                                     and matching them with schools and universities. Building and
                                     maintaining relationships with teachers. Offering career advice and coaching for
@@ -231,6 +190,47 @@
                                     guide you through the next step in your career. Sanne is meticulous in her work
                                     but keeps a fun edge to her
                                     professionalism.
+                                </p>
+                            </div>
+                            <div class="testimonial-author"><span class="testimonial-position">Bachelor’s Degree in
+                                    Media & Communications</span></div>
+                            <div class="employer-info-social">
+                                <a href="mailto:nina@teacherudite.com" class="hovicon"><i
+                                        class="icon-black-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrap">
+                        <div class="testimonial testimonial-bg1 text-center">
+                            <div class="testimonial-photo">
+                                <img src="../images/team/nina-square.png" alt="">
+                                <img src="../images/team/nina-square.png" alt="">
+                            </div>
+                            <div class="testimonial-title">Nina Blount, <span
+                                    class="member-title-position">Recruitment & Career Advisor</span></div>
+                            <div class="testimonial-text">
+                                <p>
+                                    <b>Responsibilities:</b> Identifying, screening and interviewing suitable
+                                    teachers and matching them with schools and
+                                    universities. Building and maintaining relationships with teachers. Ensuring
+                                    process flow for teachers throughout the
+                                    hiring process and through the visa process.
+                                    <br>
+                                    Nina is a study method Teacher and a registered Life Coach with over 10
+                                    years-experience. Nina has extensive experience
+                                    as a course facilitator. After practising her skills as a teacher, Nina adapted
+                                    her skills into counselling and guiding
+                                    young people through difficult stages of their lives. She later moved into
+                                    developing a TEFL academy to assist graduates
+                                    with ambitions to teach ESL outside the country. Nina has been recruiting in the
+                                    international education space for 3
+                                    years now with a primary focus on China and South East Asia. Nina is a true
+                                    people’s person and takes a sincere interest
+                                    in every person she works with. As an ex teaching professional and guidance
+                                    counsellor, she truly cares about teachers
+                                    and education as a whole. She has a great track record with placing happy
+                                    educators abroad and offering career guidance
+                                    to young people.
                                 </p>
                             </div>
                             <div class="testimonial-author"><span class="testimonial-position">Bachelor of arts in

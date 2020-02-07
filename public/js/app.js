@@ -692,14 +692,13 @@ $(function () {
       $gallery.isotope({
         itemSelector: '.gallery-item',
         masonry: {
-          columnWidth: '.gallery-item',
-          gutter: 30
+          columnWidth: '.gallery-item'
         }
       });
       setTimeout(function () {
         $gallery.isotope('layout');
         $gallery.parent('.gallery-wrap').addClass('loaded');
-      }, 500);
+      }, 900);
     });
     isotopeFilters($gallery);
   }
@@ -1100,7 +1099,7 @@ $(function () {
         if (target.length) {
           event.preventDefault();
           $('html, body').animate({
-            scrollTop: target.offset().top - 130
+            scrollTop: target.offset().top - 100
           }, 1000);
         }
         if (target.attr('id') == 'googleMapFooter') {

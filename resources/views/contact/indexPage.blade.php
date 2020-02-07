@@ -24,11 +24,11 @@
                         <div class="h-decor"></div>
                     </div>
                     <ul class="icn-list-lg">
-                        <li><i class="icon-telephone"></i><span class="phone"><span class="text-nowrap">+27(0) 81
-                                    481 8979</span></li>
+                        <li><i class="icon-telephone"></i><span class="phone"><span class="text-nowrap">+27(0) 68
+                                    542 8066</span></li>
                         <li><i class="icon-black-envelope"></i><a
-                                href="mailto:info@eruditeglobal.net">info@eruditeglobal.net</a></li>
-                        <li><i class="icon-wechat-fill"></i>Byron_Erudite_Global</li>
+                                href="mailto:info@teacherudite.com">info@teacherudite.com</a></li>
+                        <li><i class="icon-wechat-fill"></i>Teach_Erudite</li>
                     </ul>
                 </div>
                 <div class="col-md mt-3 mt-md-0">

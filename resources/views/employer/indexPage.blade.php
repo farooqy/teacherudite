@@ -25,14 +25,43 @@
         </div>
         <div class="container">
             <div class="text-center mb-2 mb-md-3">
-                <p>Not only do we recruit people from all E2 countries, but we can also supply teachers according to
-                    the specific needs of your school.</p>
+                <p>We are able to provide teachers from all native/first language English speaking countries. 
+                    Whether you require qualified teachers or graduates in other fields, we have the resources to supply your needs.</p>
             </div>
             <div class="mt-3 mt-md-0 mb-6">
                 <div class="video-wrap embed-responsive embed-responsive-16by9">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/cvsTaQu25_Y" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="title-wrap">
+                        <h5>More Information</h5>
+                        <div class="h-decor"></div>
+                    </div>
+                    <ul class="icn-list-lg">
+                        <li><i class="icon-info"></i>Interested in a recruitment drive for a large number of teachers or, 
+                            <br>only looking to fill a few vacancies? Contact us directly on WhatsApp/Phone or email
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md mt-3 mt-md-0">
+                    <div class="title-wrap">
+                        <h5>Contact Info</h5>
+                        <div class="h-decor"></div>
+                    </div>
+                    <ul class="icn-list-lg">
+                        <li><i class="icon-telephone"></i><span class="phone"><span class="text-nowrap">+27(0) 68 542 
+                                    8066</span></li>
+                        <li><i class="icon-whatsapp"></i><span class="text-nowrap">+971 58
+                                    971 3885</span></li>
+                        <li><i class="icon-black-envelope"></i><a
+                                href="mailto:byron@teacherudite.com">byron@teacherudite.com</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
