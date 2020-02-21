@@ -11,6 +11,9 @@
             <div class="main-slider arrows-white arrows-bottom" id="mainSlider"
                 data-slick='{"arrows": false, "dots": true}'>
                 <div class="slide">
+                    <a href="/jobs"><button class="btn--holder btn--holder--primary">Teachers</button></a><a href="/employers"><button  class="btn--holder btn--holder--neutral">Employers</button></a>
+                </div>
+                <div class="slide">
                     <div class="img--holder" data-animation="kenburns" data-bg="images/content/slider/slide-02.jpg">
                     </div>
                     <div class="slide-content center">

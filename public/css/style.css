@@ -9312,7 +9312,7 @@ label.number-label {
   .box__button:focus
   {
     background-color: #0f3c4b;  }
-/* STYLE END */
+/* UPLOAD FORM STYLE END */
 
 form label.error {
   display: block;
@@ -9772,6 +9772,19 @@ body.noScroll {
   @media (max-width: 767px) {
     .bg-grey-lg {
       padding: 70px 0; } }
+
+.bg-grey-sm {
+  padding: 30px 0;
+  background-color: #f8f8f8;
+  border-radius: 5px; }
+  @media (max-width: 1229px) {
+    .bg-grey-sm {
+      margin: 0 20px; } }
+  @media (max-width: 767px) {
+  .bg-grey-sm {
+    padding: 20px 20px 20px 0; } }
+.ad span {
+    color: #1e76bd; }
 
 .bg-grey-1 {
   padding: 50px 0;
@@ -11167,28 +11180,60 @@ body.noScroll {
   opacity: 1; }
 
 #mainSlider,
-#mainSlider .img--holder {
+#mainSlider .img--holder,
+#mainSlider .btn--holder {
   height: 762px; }
   @media (max-width: 1229px) {
     #mainSlider,
-    #mainSlider .img--holder {
+    #mainSlider .img--holder,
+    #mainSlider .btn--holder {
       height: 590px;
       min-height: 590px;
       max-height: calc(100vh - 178px); } }
   @media (max-width: 1023px) {
     #mainSlider,
-    #mainSlider .img--holder {
+    #mainSlider .img--holder,
+    #mainSlider .btn--holder {
       height: 400px;
       min-height: 0;
       max-height: none; } }
   @media (max-width: 767px) {
     #mainSlider,
-    #mainSlider .img--holder {
+    #mainSlider .img--holder,
+    #mainSlider .btn--holder {
       height: 300px; } }
   @media (max-width: 575px) {
     #mainSlider,
-    #mainSlider .img--holder {
+    #mainSlider .img--holder,
+    #mainSlider .btn--holder {
       height: 175px; } }
+
+/* HOMEPAGE BUTTONS */
+#mainSlider .btn--holder {
+  border: none;
+  outline: none;
+  padding: 0px;
+  color: #FFF;
+  font-size: 54px;
+  line-height: 1.26em;
+  font-weight: 400;
+  font-family: "Poppins", serif; }
+  @media (max-width: 1023px) {
+    #mainSlider .btn--holder {
+      font-size: 40px;
+      line-height: 1.16em; } }
+  @media (max-width: 575px) {
+    #mainSlider .btn--holder {
+      font-size: 20px; } }
+  #mainSlider .btn--holder--primary {
+    width: 50%;
+    background: linear-gradient(to right bottom, rgba(0, 217, 255, 0.5), rgba(48, 255, 134, 0.5)), url(../images/content/slider/for_teachers.jpeg) no-repeat;
+    background-size: cover; }
+  #mainSlider .btn--holder--neutral {
+    width: 50%;
+    background: linear-gradient(to right bottom, rgba(255, 185, 0, 0.75), rgba(255, 119, 48, 0.75)), url(../images/content/slider/for_employers.jpg) no-repeat;
+    background-size: cover; }
+/* HOMEPAGE BUTTONS STYLE END */
 
 #mainSlider {
   margin-bottom: 30px;

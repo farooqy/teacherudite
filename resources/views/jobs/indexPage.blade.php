@@ -13,11 +13,21 @@
             </div>
         </div>
     </div>
+    <div class="section mt-2">
+        <div class="container">
+            <div class="bg-grey-sm">
+                <ul class="icn-list-lg ml-2">
+                    <li><i class="icon-star"></i>Want to Advertise an open job position on our website? <a href="#advertisementForm" class="ad"><span>click here</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!--//section-->
     <!--section-->
     <div class="section page-content-first">
         <div class="container">
-            <div class="text-center mb-2  mb-md-3 mb-lg-4">
+            <div class="text-center mb-2 mb-md-3 mb-lg-4">
                 <div class="h-sub theme-color">Open Positions</div>
                 <h1>Jobs Board</h1>
                 <div class="h-decor"></div>
@@ -538,7 +548,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="container mt-6">
+                <div id="advertisementForm" class="container mt-6">
                     <div class="row">
                         <div class="col-md col-lg-5">
                             <div class="pr-0 pr-lg-8">

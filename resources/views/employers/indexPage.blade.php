@@ -35,6 +35,13 @@
                         allowfullscreen></iframe>
                 </div>
             </div>
+            <div class="mt-3 mt-md-0 mb-6">
+                <div class="video-wrap embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2TohbtY2o5w" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
         <div class="container">
             <div class="row">
@@ -61,6 +68,16 @@
                                     971 3885</span></li>
                         <li><i class="icon-black-envelope"></i><a
                                 href="mailto:byron@teacherudite.com">byron@teacherudite.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section mt-5">
+            <div class="container">
+                <div class="bg-grey-sm">
+                    <ul class="icn-list-lg ml-2">
+                        <li><i class="icon-star"></i>Want to Advertise an open job position on our website? <a href="/jobs#advertisementForm" class="ad"><span>click here</span></a>
+                        </li>
                     </ul>
                 </div>
             </div>
