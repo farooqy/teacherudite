@@ -7,9 +7,9 @@
         <div class="breadcrumbs-wrap">
             <div class="container">
                 <div class="breadcrumbs">
-                    <a href="../index.html">Home</a>
-                    <a href="blogs.html">Resources</a>
-                    <span>Blog 1</span>
+                    <a href="/">Home</a>
+                    <a href="/resources">Resources</a>
+                    <span>Resource 1</span>
                 </div>
             </div>
         </div>

@@ -22,17 +22,17 @@ class mainController extends Controller
     {
         return view('jobs_page.indexPage');
     }
-    public function employerIndexPage()
+    public function employersIndexPage()
     {
-        return view('employer.indexPage');
+        return view('employers.indexPage');
     }
-    public function blogIndexPage()
+    public function resourcesIndexPage()
     {
-        return view('blog.indexPage');
+        return view('resources.indexPage');
     }
-    public function specificBlogIndexPage()
+    public function specificResourceIndexPage()
     {
-        return view('blog_page.indexPage');
+        return view('resource_page.indexPage');
     }
     public function teflIndexPage()
     {

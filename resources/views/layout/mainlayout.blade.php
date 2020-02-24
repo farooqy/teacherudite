@@ -53,22 +53,22 @@
                                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                                         <ul class="navbar-nav">
                                             <li class="nav-item">
-                                                <a class="nav-link" href="/jobs">Jobs Board</a>
+                                                <a href="/jobs" class="nav-link">Jobs Board</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="/employers" class="nav-link">Employers</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="/blog" class="nav-link">Resources</a>
+                                                <a href="/resources" class="nav-link">Resources</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="/tefl" class="nav-link">FAQs &amp; TEFL program</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="/aboutus">About Us</a>
+                                                <a href="/aboutus" class="nav-link">About Us</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="/contactus">Contact</a>
+                                                <a href="/contactus" class="nav-link">Contact</a>
                                             </li>
                                         </ul>
                                     </div>

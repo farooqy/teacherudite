@@ -18,9 +18,9 @@ Route::get('/', function () {
 Route::get('/', 'homepage\mainController@openIndexPage')->name('openIndexPage');
 Route::get('/jobs', 'homepage\mainController@jobIndexPage')->name('jobIndexPage');
 Route::get('/jobs_page', 'homepage\mainController@specificJobIndexPage')->name('specificJobIndexPage');
-Route::get('/employers', 'homepage\mainController@employerIndexPage')->name('employerIndexPage');
-Route::get('/blog', 'homepage\mainController@blogIndexPage')->name('blogIndexPage');
-Route::get('/blog_page', 'homepage\mainController@specificBlogIndexPage')->name('specificBlogIndexPage');
+Route::get('/employers', 'homepage\mainController@employersIndexPage')->name('employersIndexPage');
+Route::get('/resources', 'homepage\mainController@resourcesIndexPage')->name('resourcesIndexPage');
+Route::get('/resource_page', 'homepage\mainController@specificResourceIndexPage')->name('specificResourceIndexPage');
 Route::get('/tefl', 'homepage\mainController@teflIndexPage')->name('teflIndexPage');
 Route::get('/aboutus', 'homepage\mainController@aboutIndexPage')->name('aboutIndexPage');
 Route::get('/contactus', 'homepage\mainController@contactIndexPage')->name('contactIndexPage');

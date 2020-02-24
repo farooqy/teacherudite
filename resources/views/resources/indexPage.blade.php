@@ -24,7 +24,7 @@
                             <div class="blog-post-info">
                                 <div class="post-date ml-2 mb-2 ml-lg-0 mb-lg-0">05<span>OCT</span></div>
                                 <div>
-                                    <h2 class="post-title"><a href="/blog_page">The Truth About Teaching
+                                    <h2 class="post-title"><a href="/resource_page">The Truth About Teaching
                                             English in China</a></h2>
                                     <div class="post-meta">
                                         <div class="post-meta-author">by <a href="#"><i>admin</i></a></div>
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                             <div class="post-image">
-                                <a href="/blog_page"><img src="../images/blog/blog-post-img-1.jpg"
+                                <a href="/resource_page"><img src="../images/blog/blog-post-img-1.jpg"
                                         alt=""></a>
                             </div>
                             <div class="post-teaser">China is a country shrouded in mystery for many foreigners,
@@ -48,7 +48,7 @@
                                 teach there. Well, we’re here to set the record straight. Read on to discover some
                                 of the misconceptions people have about teaching English in China, and find out the
                                 truth for yourself!</div>
-                            <div class="mt-3 mt-lg-4"><a href="/blog_page"
+                            <div class="mt-3 mt-lg-4"><a href="/resource_page"
                                     class="btn btn-sm btn-hover-fill"><i class="icon-right-arrow"></i><span>Read
                                         more</span><i class="icon-right-arrow"></i></a></div>
                         </div>
@@ -73,11 +73,11 @@
                         <h3 class="side-block-title">Recent Posts</h3>
                         <div class="blog-post post-preview">
                             <div class="post-image">
-                                <a href="/blog_page"><img src="../images/blog/blog-post-featured-1.jpg"
+                                <a href="/resource_page"><img src="../images/blog/blog-post-featured-1.jpg"
                                         alt=""></a>
                             </div>
                             <div>
-                                <h4 class="post-title"><a href="/blog_page">Recent post 1</a></h4>
+                                <h4 class="post-title"><a href="/resource_page">Recent post 1</a></h4>
                                 <div class="post-meta">
                                     <div class="post-meta-author text-nowrap">by <a href="#"><i>admin</i></a></div>
                                     <div class="post-meta-date text-nowrap"><i class="icon icon-clock3"></i>05 Oct,
@@ -87,11 +87,11 @@
                         </div>
                         <div class="blog-post post-preview">
                             <div class="post-image">
-                                <a href="/blog_page"><img src="../images/blog/blog-post-featured-2.jpg"
+                                <a href="/resource_page"><img src="../images/blog/blog-post-featured-2.jpg"
                                         alt=""></a>
                             </div>
                             <div>
-                                <h4 class="post-title"><a href="/blog_page">Recent post 2</a></h4>
+                                <h4 class="post-title"><a href="/resource_page">Recent post 2</a></h4>
                                 <div class="post-meta">
                                     <div class="post-meta-author text-nowrap">by <a href="#"><i>admin</i></a></div>
                                     <div class="post-meta-date text-nowrap"><i class="icon icon-clock3"></i>05 Oct,
@@ -101,11 +101,11 @@
                         </div>
                         <div class="blog-post post-preview">
                             <div class="post-image">
-                                <a href="/blog_page"><img src="../images/blog/blog-post-featured-3.jpg"
+                                <a href="/resource_page"><img src="../images/blog/blog-post-featured-3.jpg"
                                         alt=""></a>
                             </div>
                             <div>
-                                <h4 class="post-title"><a href="/blog_page">Recent post 3</a></h4>
+                                <h4 class="post-title"><a href="/resource_page">Recent post 3</a></h4>
                                 <div class="post-meta">
                                     <div class="post-meta-author text-nowrap">by <a href="#"><i>admin</i></a></div>
                                     <div class="post-meta-date text-nowrap"><i class="icon icon-clock3"></i>05 Oct,
